@@ -272,63 +272,6 @@
                </Test>
             </SkippedTests>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D39FA15E1A83E0EC00EE869C"
-               BuildableName = "UITests.xctest"
-               BlueprintName = "UITests"
-               ReferencedContainer = "container:Client.xcodeproj">
-            </BuildableReference>
-            <SkippedTests>
-               <Test
-                  Identifier = "AuthenticationTests">
-               </Test>
-               <Test
-                  Identifier = "BrowserTests">
-               </Test>
-               <Test
-                  Identifier = "ClearPrivateDataTests">
-               </Test>
-               <Test
-                  Identifier = "DomainAutocompleteTests">
-               </Test>
-               <Test
-                  Identifier = "HistoryTests">
-               </Test>
-               <Test
-                  Identifier = "KIFTestCase">
-               </Test>
-               <Test
-                  Identifier = "LoginInputTests">
-               </Test>
-               <Test
-                  Identifier = "LoginManagerTests">
-               </Test>
-               <Test
-                  Identifier = "NavigationDelegateTests">
-               </Test>
-               <Test
-                  Identifier = "NoImageModeTests">
-               </Test>
-               <Test
-                  Identifier = "ReadingListTests">
-               </Test>
-               <Test
-                  Identifier = "SecurityTests">
-               </Test>
-               <Test
-                  Identifier = "SessionRestoreTests">
-               </Test>
-               <Test
-                  Identifier = "ToolbarTests">
-               </Test>
-               <Test
-                  Identifier = "TrackingProtectionTests">
-               </Test>
-            </SkippedTests>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
