@@ -157,9 +157,6 @@
             </BuildableReference>
             <SkippedTests>
                <Test
-                  Identifier = "ActivityStreamTest">
-               </Test>
-               <Test
                   Identifier = "AuthenticationTest">
                </Test>
                <Test
@@ -169,28 +166,16 @@
                   Identifier = "BookmarkingTests">
                </Test>
                <Test
-                  Identifier = "BrowsingPDFTests">
-               </Test>
-               <Test
                   Identifier = "ClipBoardTests">
                </Test>
                <Test
                   Identifier = "CopiedLinksTests">
                </Test>
                <Test
-                  Identifier = "DatabaseFixtureTest">
-               </Test>
-               <Test
-                  Identifier = "DomainAutocompleteTest">
-               </Test>
-               <Test
                   Identifier = "DownloadFilesTests">
                </Test>
                <Test
                   Identifier = "DragAndDropTests">
-               </Test>
-               <Test
-                  Identifier = "FirstRunTourTests">
                </Test>
                <Test
                   Identifier = "FxScreenGraphTests">
