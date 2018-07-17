@@ -13,7 +13,7 @@ if [ "$BUDDYBUILD_SCHEME" = "Fennec" ]; then
   find . -name "*.dSYM" -print | zip /tmp/dsyms.zip -@
   curl -F ipa=@$BUDDYBUILD_IPA_PATH  -u $NIMBLEDROID_API_KEY: https://nimbledroid.com/api/v2/ipas \
        -F "dsyms=@/tmp/dsyms.zip" \
-       -F device_config=ios11 \
+       -F device_config='ios10,ios11' \
        -F test_identifiers='ActivityStreamTest/testDefaultSites,DomainAutocompleteTest/testAutocomplete,DatabaseFixtureTest/testHistoryDatabaseFixture,BrowsingPDFTests/testBookmarkPDF,ActivityStreamTest/testTopSitesBookmarkNewTopSite,FindInPageTests/testFindInLargeDoc,FirstRunTourTests/testFirstRunTour'
 # comment out the section where it upload the testrunner
 #  (cd $BUDDYBUILD_TEST_DIR/Build/Products/Fennec-iphonesimulator && zip -r $test_runner.zip $test_runner.app)
